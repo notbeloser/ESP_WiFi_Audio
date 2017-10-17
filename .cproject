@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.1900231582">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.1900231582" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.1900231582" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.1900231582.1935605457" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.715249626" name="Arduino Toolchain( Sloeber edition)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.446170812" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/ESP_WiFi_Audio}/Release" id="io.sloeber.sketch.builder.496026942" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.1508540548" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.1392512210" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/Ticker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/DNSServer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/DNSServer/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WebServer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WebServer/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/WiFiManager}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1995574216" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.1251064511" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.123864366" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/Ticker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/DNSServer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/DNSServer/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WebServer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WebServer/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/WiFiManager}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.931882822" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.1875402250" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.444860978" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/Ticker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/DNSServer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/DNSServer/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WebServer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/ESP8266WebServer/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ESP_WiFi_Audio/libraries/WiFiManager}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.154150632" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.676812791" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.399058997" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.798748678" name="Arduino tool objcopy command" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.1294100979" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries**/._*|libraries/?*/c*/?*|libraries/?*/d*/?*|libraries/?*/D*/?*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="ESP_WiFi_Audio.null.1145979278" name="ESP_WiFi_Audio"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
