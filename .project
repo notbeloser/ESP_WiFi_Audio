@@ -42,9 +42,19 @@
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/variants/nodemcu</locationURI>
 		</link>
 		<link>
+			<name>libraries/ArduinoJson</name>
+			<type>2</type>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/ArduinoJson/5.9.0</locationURI>
+		</link>
+		<link>
 			<name>libraries/DNSServer</name>
 			<type>2</type>
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/libraries/DNSServer</locationURI>
+		</link>
+		<link>
+			<name>libraries/ESP8266HTTPClient</name>
+			<type>2</type>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266HTTPClient</locationURI>
 		</link>
 		<link>
 			<name>libraries/ESP8266WebServer</name>
@@ -55,6 +65,16 @@
 			<name>libraries/ESP8266WiFi</name>
 			<type>2</type>
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266WiFi</locationURI>
+		</link>
+		<link>
+			<name>libraries/SD</name>
+			<type>2</type>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/libraries/SD</locationURI>
+		</link>
+		<link>
+			<name>libraries/SPI</name>
+			<type>2</type>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/libraries/SPI</locationURI>
 		</link>
 		<link>
 			<name>libraries/Ticker</name>

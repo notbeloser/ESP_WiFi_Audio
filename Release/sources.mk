@@ -41,8 +41,12 @@ core/core/libb64 \
 core/core/spiffs \
 core/core/umm_malloc \
 libraries/DNSServer/src \
+libraries/ESP8266HTTPClient/src \
 libraries/ESP8266WebServer/src \
 libraries/ESP8266WiFi/src \
+libraries/SD/src \
+libraries/SD/src/utility \
+libraries/SPI \
 libraries/Ticker \
 libraries/WiFiManager \
 

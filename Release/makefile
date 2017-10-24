@@ -11,8 +11,12 @@ RM := rm -f
 -include subdir.mk
 -include libraries/WiFiManager/subdir.mk
 -include libraries/Ticker/subdir.mk
+-include libraries/SPI/subdir.mk
+-include libraries/SD/src/utility/subdir.mk
+-include libraries/SD/src/subdir.mk
 -include libraries/ESP8266WiFi/src/subdir.mk
 -include libraries/ESP8266WebServer/src/subdir.mk
+-include libraries/ESP8266HTTPClient/src/subdir.mk
 -include libraries/DNSServer/src/subdir.mk
 -include core/core/umm_malloc/subdir.mk
 -include core/core/spiffs/subdir.mk

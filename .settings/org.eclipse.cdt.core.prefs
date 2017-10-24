@@ -187,10 +187,10 @@ environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.DT
 environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.DTS/value=0
 environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.LOCAL/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.LOCAL/operation=replace
-environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.LOCAL/value=1508182961
+environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.LOCAL/value=1508870906
 environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.UTC/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.UTC/operation=replace
-environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.UTC/value=1508154161
+environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.UTC/value=1508842106
 environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.ZONE/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.ZONE/operation=replace
 environment/project/io.sloeber.core.toolChain.release.1900231582/A.EXTRA.TIME.ZONE/value=28800
@@ -445,7 +445,7 @@ environment/project/io.sloeber.core.toolChain.release.1900231582/JANTJE.COM_PORT
 environment/project/io.sloeber.core.toolChain.release.1900231582/JANTJE.COM_PORT/value=/dev/ttyUSB0
 environment/project/io.sloeber.core.toolChain.release.1900231582/JANTJE.ECLIPSE_LOCATION/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.1900231582/JANTJE.ECLIPSE_LOCATION/operation=replace
-environment/project/io.sloeber.core.toolChain.release.1900231582/JANTJE.ECLIPSE_LOCATION/value=${eclipse_home}//////////////////////////////////////////////////////////////////
+environment/project/io.sloeber.core.toolChain.release.1900231582/JANTJE.ECLIPSE_LOCATION/value=${eclipse_home}////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 environment/project/io.sloeber.core.toolChain.release.1900231582/JANTJE.EXTRA.C.COMPILE/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.1900231582/JANTJE.EXTRA.C.COMPILE/operation=replace
 environment/project/io.sloeber.core.toolChain.release.1900231582/JANTJE.EXTRA.C.COMPILE/value=
